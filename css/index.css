@@ -2,7 +2,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #222;
+  background-color: #06465E;
 }
 
 /* Style the navigation bar links */
@@ -31,15 +31,55 @@
 }
 
 .main-content {
-  padding: 10vh 0px 10vh 0px;
   text-align: center;
-  background: #555;
+  background: #07526E;
+  overflow: hidden;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: width;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 2vw;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
 
 .footer-distributed{
-  background: #222;
+  background: #032B3A;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
   text-align: left;
   font: bold 16px sans-serif;
   padding: 55px 50px;
