@@ -2,14 +2,14 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #06465E;
+  background-color: skyblue;
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -32,7 +32,7 @@
 
 .main-content {
   text-align: center;
-  background: #07526E;
+  background: whitesmoke;
   overflow: hidden;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .footer-distributed{
-  background: #032B3A;
+  background: skyblue;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   text-align: left;
   font: bold 16px sans-serif;
@@ -101,19 +101,13 @@
 /* The company logo */
 
 .footer-distributed h3{
-  color:  #ffffff;
   font: normal 36px 'Open Sans', cursive;
   margin: 0;
-}
-
-.footer-distributed h3 span{
-  color:  lightseagreen;
 }
 
 /* Footer links */
 
 .footer-distributed .footer-links{
-  color:  #ffffff;
   margin: 20px 0 12px;
   padding: 0;
 }
@@ -127,7 +121,6 @@
 }
 
 .footer-distributed .footer-company-name{
-  color:  #999;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
@@ -159,7 +152,6 @@
 
 .footer-distributed .footer-center p{
   display: inline-block;
-  color: #ffffff;
   font-weight:400;
   vertical-align: middle;
   margin:0;
@@ -173,8 +165,7 @@
 }
 
 .footer-distributed .footer-center p a{
-  color:  lightseagreen;
-  text-decoration: none;;
+  text-decoration: none;
 }
 
 .footer-distributed .footer-links a:before {
@@ -182,7 +173,6 @@
   font-weight:300;
   font-size: 20px;
   left: 0;
-  color: #fff;
   display: inline-block;
   padding-right: 5px;
 }
@@ -199,7 +189,6 @@
 
 .footer-distributed .footer-company-about{
   line-height: 20px;
-  color:  #92999f;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
@@ -207,7 +196,6 @@
 
 .footer-distributed .footer-company-about span{
   display: block;
-  color:  #ffffff;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -222,14 +210,12 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
+  color: #ffffff;
   background-color:  #33383b;
   border-radius: 2px;
-
   font-size: 20px;
-  color: #ffffff;
   text-align: center;
   line-height: 35px;
-
   margin-right: 3px;
   margin-bottom: 5px;
 }
